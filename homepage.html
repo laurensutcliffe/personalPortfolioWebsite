@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="webpagestyles.css">
+        <title>Personal Portfolio Homepage</title>
+    </head>
+    
+    <body>
+    <Navigation Bar>    
+        <nav>
+            <ul>
+                <a href="#about_me"><li>About Me</li></a>
+                <a href="#myskills"><li>Skills</li></a>
+                <a href="#myprojects"><li>Projects</li></a>
+                <a href="contact.html" target="_blank"><li>Contact Me</li></a>
+            </ul>
+        </nav>
+        
+    <Main Heading>
+        <header>
+            <h1>Lauren Sutcliffe</h1>
+            <h3>Full Stack Engineer</h3>
+        </header>
+    
+    <About Me Section>
+        <main>
+        <i class="fas fa-adjust toggle" title="Light/Dark Toggle"></i>
+        <section class="about-me" id="about_me">
+        <div class="about-text">
+            <h2 id="aboutmetitle">About Me</h2>
+            <p id="aboutmetext"> I am a 22yr old female from the North West of England. I have been part time studying Fullstack Software Development since July 2021 whilst full time working as a Business Operations Assitant. My goal for 2022 is to step into the world of software development full time and begin familiarising myself with more languages, concepts and ideas.</p>
+            <break></break>
+            <p> When I am away from the computer, I enjoy attending social events, meeting new people and listening to live music. I find it important to try to maintain a healthy lifestyle so I often enjoy attending the gym or taking part in gym classes. I also hold a great interest in travelling. I have been fortunate enough to visit a variety of different countries and in 2019 I decided to travel to Australia for a short solo backpacking trip. Whilst there I found a love for extreme sports such as Skydiving, Bungy Jumping and Scuba Diving. I have also always had a passion for technology and gaming.</p>
+        </div>
+        <img id="aboutmeimage" src="resources/profile.jpg" />
+    </section>
+    
+    <Skills Section>
+        <section class="skills" id="myskills">
+            <div><h2>Languages I Have Learnt So Far!</h2>
+            <img class="language" src=resources/languages/html.png>
+            <img class="language" src=resources/languages/css.png>
+            <img class="language" src=resources/languages/js.png>
+                <img class="language" src=resources/languages/sql.png></div>
+        </section>
+        
+    <Blank Section>
+        
+            
+    
+    <Projects>
+        <section class="projects" id="myprojects">
+            <h2>Click Here to View Repositories I Have Submitted So Far!</h2>
+             <button id="projectsbutton" onclick="window.location.href='https://github.com/laurensutcliffe?tab=repositories'">Click Me</button>
+
+            <div id="myDIV">
+                View my GitHub repositories here.
+            </div>
+        </section>
+        </main>
+        
+    <Footer>
+        <footer>
+            
+        </footer>
+        
+        <div class="facts" id="factsDiv">
+            <button id="factsbutton" onclick="randomFacts()">Random Facts About Me</button>
+            <p id=factsP></p>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
